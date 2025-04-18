@@ -1,0 +1,21 @@
+{
+    "configurations": [
+      {
+        "name": "Linux",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "/usr/include",
+          "/usr/include/x86_64-linux-gnu",   // 对应你的架构
+          "/usr/include/aarch64-linux-gnu",  // 若是交叉编译，需加这个
+          "/usr/local/include"
+        ],
+        "defines": [],
+        "compilerPath": "/usr/bin/gcc",     // 或者你的 aarch64-linux-gnu-gcc 路径
+        "cStandard": "gnu11",
+        "cppStandard": "gnu++17",
+        "intelliSenseMode": "linux-gcc-x64"
+      }
+    ],
+    "version": 4
+  }
+  
